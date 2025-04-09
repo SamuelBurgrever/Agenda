@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MinhaAgenda.Views.AdicionarContatoOBSPage"
+             xmlns:controls="clr-namespace:MinhaAgenda.Views.Controls"
+             Title="AdicionarContatoObsPage">
+    <controls:ContatosControl x:Name="contatosObsCtrl"
+                              OnSave="contatoObsCtrl_OnSave"
+                              OnCancel="contatoObsCtrl_OnCancel"
+                              OnError="contatoObsCtrl_OnError">
+        
+    </controls:ContatosControl>
+</ContentPage>
