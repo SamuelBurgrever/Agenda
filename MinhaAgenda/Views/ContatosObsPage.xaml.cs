@@ -10,6 +10,6 @@ public partial class ContatosObsPage : ContentPage
             
     private async void btnAdicionar_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync($"{nameof(AdicionarContatoPage)}");
+        await Shell.Current.GoToAsync($"{nameof(AdicionarContatoOBSPage)}");
     }
 }

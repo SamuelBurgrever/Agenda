@@ -1,4 +1,4 @@
-﻿using MinhaAgenda.Views;
+﻿﻿using MinhaAgenda.Views;
 
 namespace MinhaAgenda
 {
@@ -7,6 +7,11 @@ namespace MinhaAgenda
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute(nameof(ContatosPage), typeof(ContatosPage));
+            Routing.RegisterRoute(nameof(EditarContatoPage), typeof(EditarContatoPage));
+            Routing.RegisterRoute(nameof(AdicionarContatoPage), typeof(AdicionarContatoPage));
+            Routing.RegisterRoute(nameof(ContatosObsPage), typeof(ContatosObsPage));
+            Routing.RegisterRoute(nameof(AdicionarContatoOBSPage), typeof(AdicionarContatoOBSPage));
         }
     }
 }
